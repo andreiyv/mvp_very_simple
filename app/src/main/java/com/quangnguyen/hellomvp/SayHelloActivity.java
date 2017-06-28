@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,7 +16,7 @@ import android.widget.Toast;
 
 public class SayHelloActivity extends AppCompatActivity
     implements SayHelloContract.View, View.OnClickListener {
-
+// https://android.jlelse.eu/architecture-patterns-in-android-abf99f2b6f70
   private SayHelloContract.Presenter presenter;
 
   //UI properties
